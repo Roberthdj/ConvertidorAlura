@@ -15,45 +15,47 @@ public class ConvertirTemperatura {
 
         double resultado = 0;
 
-        String seleccionado, grados = "";
+        String seleccionado,
+                texto = "";
 
         Object seleccion = JOptionPane.showInputDialog(null, "Seleccione una opción de conversión",
                 "Escala de temperatura", JOptionPane.PLAIN_MESSAGE, null,
                 new Object[]{"De Celsius a Fahrenheit", "De Celsius a Kelvin", "De Fahrenheit a Celsius",
-                    "De Fahrenheit a Kelvin", "De Kelvin a Celsius", "De Kelvin a Fahrenheit"},"opcion 1");
+                    "De Fahrenheit a Kelvin", "De Kelvin a Celsius", "De Kelvin a Fahrenheit"}, null);
 
         seleccionado = seleccion.toString();
 
         switch (seleccionado) {
             case "De Celsius a Fahrenheit":
                 resultado = (valorEntrante * 1.8) + 32;
-                grados = "Fahrenheit";
+                texto = "Fahrenheit";
                 break;
             case "De Fahrenheit a Celsius":
                 resultado = (valorEntrante - 32) / 1.8;
-                grados = "Celsius";
+                texto = "Celsius";
                 break;
             case "De Celsius a Kelvin":
                 resultado = valorEntrante + 273.15;
-                grados = "Kelvin";
+                texto = "Kelvin";
                 break;
             case "De Kelvin a Celsius":
                 resultado = valorEntrante - 273.15;
-                grados = "Celsius";
+                texto = "Celsius";
                 break;
             case "De Fahrenheit a Kelvin":
                 resultado = (valorEntrante - 32) * 5 / 9 + 273.15;
-                grados = "Kelvin";
+                texto = "Kelvin";
                 break;
             case "De Kelvin a Fahrenheit":
                 resultado = 1.8 * (valorEntrante - 273.15) + 32;
-                grados = "Fahrenheit";
+                texto = "Fahrenheit";
                 break;
             default:
                 new Mensaje().MensajeContinuar();
                 break;
         }
 
-        new Mensaje().MensajeResultado("Usted tiene " + " " + String.format("%.2f", resultado) + " grados " + grados);
+        new Mensaje().MensajeResultado("Usted tiene " + " " + String.format("%.2f", resultado) + " grados " + texto);
     }
+
 }

@@ -27,7 +27,7 @@ public class CapturarValor {
             } catch (Exception e) {
                 System.out.println("Error al convertir el valor: --> " + e);
                 JOptionPane.showMessageDialog(null, "Por favor ingrese un valor numérico");
-                new Mensaje().MensajeContinuar(); // Podria cambiarse a Iniciar nuevamente la aplicacion
+                new MenuInicio().MenuInicial();
             }
         } else {
             new Mensaje().MensajeContinuar();

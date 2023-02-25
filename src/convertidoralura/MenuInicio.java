@@ -30,7 +30,7 @@ public class MenuInicio {
                 new ConvertirTemperatura().convertir();
                 break;
             case "Conversor de masa":
-                System.out.println("masa");
+                new ConvertirMasa().convertir();
                 break;
             default:
                 new Mensaje().MensajeContinuar();
