@@ -34,11 +34,11 @@
 </p>
 
 ## Funcionalidades
-:heavy_check_mark: `Funcionalidad 1:` <p align="justify"> Conversor de moneda que permita convertir pesos colombianos a dolares, euros, libras, yenes y wones además de poder convertir estas monedas a pesos.</p>
+:heavy_check_mark: <p align="justify"><strong>Funcionalidad 1:</strong> Conversor de moneda que permita convertir pesos colombianos a dolares, euros, libras, yenes y wones además de poder convertir estas monedas a pesos.</p>
 
-:heavy_check_mark: `Funcionalidad 2:` <p align="justify"> Conversor de temperatura que permite realizar la conversión de un valor entre grados Celsius, Fahrenheit y Kelvin.</p>
+:heavy_check_mark: <p align="justify"><strong>Funcionalidad 2:</strong> Conversor de temperatura que permite realizar la conversión de un valor entre grados Celsius, Fahrenheit y Kelvin.</p>
 
-:heavy_check_mark: `Funcionalidad 3:` <p align="justify"> Conversor de masa que permite convertir gramos a onzas, libras y kilogramos además de convertir estas unidades a gramos. </p>
+:heavy_check_mark:  <p align="justify"><strong>Funcionalidad 3:</strong> Conversor de masa que permite convertir gramos a onzas, libras y kilogramos además de convertir estas unidades a gramos. </p>
 ## Aplicación
 
 <div align="center">
