@@ -34,17 +34,11 @@
 </p>
 
 ## Funcionalidades
-<p align="justify">
-  :heavy_check_mark: `Funcionalidad 1:` Conversor de moneda que permita convertir pesos colombianos a dolares, euros, libras, yenes y wones además de poder convertir estas monedas a pesos.
-</p>
+:heavy_check_mark: `Funcionalidad 1:` <p align="justify"> Conversor de moneda que permita convertir pesos colombianos a dolares, euros, libras, yenes y wones además de poder convertir estas monedas a pesos.</p>
 
-<p align="justify">
-  :heavy_check_mark: `Funcionalidad 2:` Conversor de temperatura que permite realizar la conversión de un valor entre grados Celsius, Fahrenheit y Kelvin.
-</p>
+:heavy_check_mark: `Funcionalidad 2:` <p align="justify"> Conversor de temperatura que permite realizar la conversión de un valor entre grados Celsius, Fahrenheit y Kelvin.</p>
 
-<p align="justify">
-  :heavy_check_mark: `Funcionalidad 3:` Conversor de masa que permite convertir gramos a onzas, libras y kilogramos además de convertir estas unidades a gramos.
-</p>
+:heavy_check_mark: `Funcionalidad 3:` <p align="justify"> Conversor de masa que permite convertir gramos a onzas, libras y kilogramos además de convertir estas unidades a gramos. </p>
 ## Aplicación
 
 <div align="center">
@@ -73,9 +67,9 @@ Para correr `Conversor Alura`en tu máquina local:
 
 - Crea un nuevo proyecto en el IDE que estes usando para trabajar, "asegurate de no crear un Main Class"
 
-- Abre una terminal de git en la ubicacion donde se aloja el nuevo proyecto que creaste.
+- Abre una terminal de git en la ubicacion donde se aloja el nuevo proyecto que creaste
 
-- Inicializa el proyecto en la teminal con la linea: git init 
+- Inicializa el proyecto en la teminal con la linea: git init
 
 - Conectate al repositorio remoto con la linea: git remote add origin https://github.com/Roberthdj/ConvertidorAlura.git
 
