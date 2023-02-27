@@ -22,7 +22,7 @@
 
 - [Acceso al proyecto](#acceso-al-proyecto).
 
-- [Abrir el proyecto](#abrir-el-proyecto)
+- [Abrir un proyecto local](#abrir-un-proyecto-local)
 
 - [Desarrollado por](#desarrollado-por)
 
