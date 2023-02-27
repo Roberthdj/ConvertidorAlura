@@ -1,4 +1,8 @@
-![logo_GlicoCare](https://user-images.githubusercontent.com/37356058/131255528-265f5bca-609f-45e8-a574-b77b8d542381.png#vitrinedev)
+<div align="left">
+
+  <h1>CONVERSOR ALURA</h1>
+
+</div>
 
 <hr>
 
@@ -41,9 +45,9 @@
 
 <div align="center">
 
-![Android Emulator](https://user-images.githubusercontent.com/37356058/135944390-ec96d4ec-ee43-4db9-882f-89be66aad23a.gif)
+![Vista inicial](https://github.com/Roberthdj/ConvertidorAlura/blob/master/imagen/Imagen_app.png)
 
-  </div>
+</div>
 
 ###
 
