@@ -24,7 +24,7 @@
 
 - [Abrir el proyecto](#abrir-el-proyecto)
 
-- [Desarrolladores](#desarrolladores)
+- [Desarrollado por](#desarrollado-por)
 
 ## Descripción del proyecto 
 
@@ -34,18 +34,22 @@
 </p>
 
 ## Funcionalidades
+<p align="justify">
+  :heavy_check_mark: `Funcionalidad 1:` Conversor de moneda que permita convertir pesos colombianos a dolares, euros, libras, yenes y wones además de poder convertir estas monedas a pesos.
+</p>
 
-:heavy_check_mark: `Funcionalid 1:` Conversor de moneda que permita convertir pesos colombianos a dolares, euros, libras, yenes y wones además de poder convertir estas monedas a pesos.
+<p align="justify">
+  :heavy_check_mark: `Funcionalidad 2:` Conversor de temperatura que permite realizar la conversión de un valor entre grados Celsius, Fahrenheit y Kelvin.
+</p>
 
-:heavy_check_mark: `Funcionalid 2:` Conversor de temperatura que permite realizar la conversión de un valor entre grados Celsius, Fahrenheit y Kelvin.
-
-:heavy_check_mark: `Funcionalid 3:` Conversor de masa que permite convertir gramos a onzas, libras y kilogramos además de convertir estas unidades a gramos.
-
+<p align="justify">
+  :heavy_check_mark: `Funcionalidad 3:` Conversor de masa que permite convertir gramos a onzas, libras y kilogramos además de convertir estas unidades a gramos.
+</p>
 ## Aplicación
 
 <div align="center">
 
-![Vista inicial](https://github.com/Roberthdj/ConvertidorAlura/blob/master/imagen/Imagen_app.png)
+  ![Vista inicial](https://github.com/Roberthdj/ConvertidorAlura/blob/master/imagen/Imagen_app.png)
 
 </div>
 
@@ -81,6 +85,6 @@ Para correr `Conversor Alura`en tu máquina local:
 
 Si todo va bien, tu nuevo proyecto se sincronizo correctamente con el repositorio!
 
-## Desarrolladores
+## Desarrollado por
 
-| [<img src="https://avatars.githubusercontent.com/u/120141795?s=400&u=1224e7aef9eef9f87a1598bd2168761487581ef4&v=4" width=115><br><sub>Roberth Rodriguez Castro</sub>](https://github.com/roberthdj) | :---: | :---: 
+[<img src="https://avatars.githubusercontent.com/u/120141795?s=400&u=1224e7aef9eef9f87a1598bd2168761487581ef4&v=4" width=115><br><sub>Roberth Rodriguez Castro</sub>](https://github.com/roberthdj)
