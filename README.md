@@ -63,11 +63,24 @@
 
 Tu puedes [acceder al codigo fuente del proyecto](https://github.com/Roberthdj/ConvertidorAlura) o [descargar sus etapas de desarrollo](https://github.com/Roberthdj/ConvertidorAlura/tags)
 
-## Abrir el proyecto
+## Abrir un proyecto local
 
-Após baixar o projeto, você pode abrir com o `Android Studio`. Para isso, na tela de launcher clique em:
+![Para correr `Conversor Alura`en tu máquina local:]
 
+- [Crea un nuevo proyecto en el IDE que estes usando para trabajar, "asegurate de no crear un Main Class"]
+
+- [Abre una terminal de git en la ubicacion donde se aloja el nuevo proyecto que creaste.]
+
+- [Inicializa el proyecto en la teminal con la linea: git init ]
+
+- [Conectate al repositorio remoto con la linea: git remote add origin https://github.com/Roberthdj/ConvertidorAlura.git]
+
+- [Luego la linea: git remote -v]
+
+- [Finalmente ejecuta la linea: git pull origin master]
+
+![Si todo va bien, tu nuevo proyecto se sincronizo correctamente con el repositorio!]
 
 ## Desarrolladores
 
-| [<img src="https://avatars.githubusercontent.com/u/120141795?s=400&u=1224e7aef9eef9f87a1598bd2168761487581ef4&v=4" width=115><br><sub>Roberth Rodriguez Castro</sub>](https://github.com/roberthdj) || :---: | :---: 
+![<img src="https://avatars.githubusercontent.com/u/120141795?s=400&u=1224e7aef9eef9f87a1598bd2168761487581ef4&v=4" width=115><br><sub><h2>Roberth Rodriguez Castro</h2></sub>](https://github.com/roberthdj)
