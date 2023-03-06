@@ -65,7 +65,7 @@ Tu puedes [acceder al codigo fuente del proyecto](https://github.com/Roberthdj/C
 
 Para correr `Conversor Alura`en tu máquina local:
 
-- Crea un nuevo proyecto en el IDE que estes usando para trabajar, "asegurate de no crear un Main Class"
+- Crea un nuevo proyecto de nombre ConvertidorAlura en el IDE que estes usando para trabajar, "asegurate de no crear un Main Class"
 
 - Abre una terminal de git en la ubicacion donde se aloja el nuevo proyecto que creaste
 
