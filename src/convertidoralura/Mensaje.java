@@ -8,7 +8,7 @@ public class Mensaje {
         // Constructor de la clase
     }
 
-    private void MensajeSalida() {
+    private void MensajeSalida() {           
         JOptionPane.showMessageDialog(null, "Programa finalizado");
         System.exit(0);
     }

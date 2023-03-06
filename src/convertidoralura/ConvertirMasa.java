@@ -1,5 +1,6 @@
 package convertidoralura;
 
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 public class ConvertirMasa {
@@ -18,46 +19,59 @@ public class ConvertirMasa {
                 kilo = 1000,
                 resultado = 0;
 
-        String seleccionado, 
-               texto = "";
+        String seleccionado,
+                texto = "";
+
+        String[] lista = {"De Gramos a Onzas", "De Gramos a Libras", "De Gramos a Kilogramos",
+            "De Onzas a Gramos", "De Libras a Gramos", "De Kilogramos a Gramos"};
+
+        ImageIcon icono = new ImageIcon("imagen/balanza.png");
 
         Object seleccion = JOptionPane.showInputDialog(null, "Seleccione una opción de conversión",
-                "Escala de temperatura", JOptionPane.PLAIN_MESSAGE, null,
-                new Object[]{"De Gramos a Onzas", "De Gramos a Libras", "De Gramos a Kilogramos",
-                    "De Onzas a Gramos", "De Libras a Gramos", "De Kilogramos a Gramos"}, null);
+                "Escala de temperatura", JOptionPane.PLAIN_MESSAGE, icono,
+                lista, lista[0]);
 
-        seleccionado = seleccion.toString();
+        if (seleccion != null) {
 
-        switch (seleccionado) {
-            case "De Gramos a Onzas":
-                resultado = valorEntrante / onza;
-                texto = "Onzas";
-                break;
-            case "De Onzas a Gramos":
-                resultado = valorEntrante * onza;
-                texto = "Gramos";
-                break;
-            case "De Gramos a Libras":
-                resultado = valorEntrante / libra;
-                texto = "Libras";
-                break;
-            case "De Libras a Gramos":
-                resultado = valorEntrante * libra;
-                texto = "Gramos";
-                break;
-            case "De Gramos a Kilogramos":
-                resultado = valorEntrante / kilo;
-                texto = "Kilogramos";
-                break;
-            case "De Kilogramos a Gramos":
-                resultado = valorEntrante * kilo;
-                texto = "Gramos";
-                break;            
-            default:
-                new Mensaje().MensajeContinuar();
-                break;
+            seleccionado = seleccion.toString();
+
+            switch (seleccionado) {
+                case "De Gramos a Onzas":
+                    resultado = valorEntrante / onza;
+                    texto = "Onzas";
+                    break;
+                case "De Onzas a Gramos":
+                    resultado = valorEntrante * onza;
+                    texto = "Gramos";
+                    break;
+                case "De Gramos a Libras":
+                    resultado = valorEntrante / libra;
+                    texto = "Libras";
+                    break;
+                case "De Libras a Gramos":
+                    resultado = valorEntrante * libra;
+                    texto = "Gramos";
+                    break;
+                case "De Gramos a Kilogramos":
+                    resultado = valorEntrante / kilo;
+                    texto = "Kilogramos";
+                    break;
+                case "De Kilogramos a Gramos":
+                    resultado = valorEntrante * kilo;
+                    texto = "Gramos";
+                    break;
+                default:
+                    new Mensaje().MensajeContinuar();
+                    break;
+            }
+
+            new Mensaje().MensajeResultado("Usted tiene " + " " + String.format("%.2f", resultado) + " " + texto);
+       
+        } else {
+            
+             new ConvertirMasa().convertir();
+             
         }
 
-        new Mensaje().MensajeResultado("Usted tiene " + " " + String.format("%.2f", resultado) + " " + texto);
     }
 }
