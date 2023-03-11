@@ -14,20 +14,22 @@ public class ConvertirDinero {
 
     private void ElegirMoneda(double valorEntrante) {
 
-        double dolar = 4849.65,
-                euro = 5118.9,
-                libra = 5800.32,
-                yen = 35.64,
-                won = 3.71,
+        ConsumirApi moneda = new ConsumirApi();
+        moneda.optenerMonedas();
+
+        double pesoEnDolares = moneda.getPesoEnDolares(),
+                pesoEnEuros = moneda.getPesoEnEuros(),
+                pesoEnLibras = moneda.getPesoEnLibras(),
+                pesoEnYenes = moneda.getPesoEnYenes(),
+                pesoEnWones = moneda.getPesoEnWones(),
                 resultado = 0;
 
         String seleccionado,
                 texto = "";
 
         String[] lista = {"De Pesos a Dólar", "De Pesos a Euro", "De Pesos a Libras",
-            "De Pesos a Yen", "De Pesos a Won Coreano", "De Dólar a Pesos",
-            "De Euro a Pesos", "De Libras a Pesos", "De Yen a Pesos",
-            "De Won Coreano a Pesos"};
+            "De Pesos a Yen", "De Pesos a Won Coreano", "De Dólar a Pesos", "De Euro a Pesos",
+            "De Libras a Pesos", "De Yen a Pesos", "De Won Coreano a Pesos"};
 
         ImageIcon icono = new ImageIcon("imagen/intercambio.png");
 
@@ -35,49 +37,48 @@ public class ConvertirDinero {
                 "Moneda", JOptionPane.PLAIN_MESSAGE, icono, lista, lista[0]);
 
         if (seleccion != null) {
-            
+
             seleccionado = seleccion.toString();
-            
+
             switch (seleccionado) {
                 case "De Pesos a Dólar":
-                    resultado = valorEntrante / dolar;
+                    resultado = pesoEnDolares * valorEntrante;
                     texto = "Dolares";
                     break;
                 case "De Dólar a Pesos":
-                    resultado = valorEntrante * dolar;
+                    resultado = valorEntrante / pesoEnDolares;
                     texto = "Pesos";
                     break;
                 case "De Pesos a Euro":
-                    resultado = valorEntrante / euro;
+                    resultado = pesoEnEuros * valorEntrante;
                     texto = "Euros";
                     break;
                 case "De Euro a Pesos":
-                    resultado = valorEntrante * euro;
+                    resultado = valorEntrante / pesoEnEuros;
                     texto = "Pesos";
                     break;
                 case "De Pesos a Libras":
-                    resultado = valorEntrante / libra;
+                    resultado = pesoEnLibras * valorEntrante;
                     texto = "Libras";
                     break;
                 case "De Libras a Pesos":
-                    System.out.println(valorEntrante);
-                    resultado = valorEntrante * libra;
+                    resultado = valorEntrante / pesoEnLibras;
                     texto = "Pesos";
                     break;
                 case "De Pesos a Yen":
-                    resultado = valorEntrante / yen;
+                    resultado = pesoEnYenes * valorEntrante;
                     texto = "Yenes";
                     break;
                 case "De Yen a Pesos":
-                    resultado = valorEntrante * yen;
+                    resultado = valorEntrante / pesoEnYenes;
                     texto = "Pesos";
                     break;
                 case "De Pesos a Won Coreano":
-                    resultado = valorEntrante / won;
+                    resultado = pesoEnWones * valorEntrante;
                     texto = "Wones";
                     break;
                 case "De Won Coreano a Pesos":
-                    resultado = valorEntrante * won;
+                    resultado = valorEntrante / pesoEnWones;
                     texto = "Pesos";
                     break;
                 default:
@@ -88,9 +89,9 @@ public class ConvertirDinero {
             new Mensaje().MensajeResultado("Usted tiene " + " " + String.format("%.2f", resultado) + " " + texto);
 
         } else {
-            
+
             new ConvertirDinero().convertir();
-            
+
         }
     }
 
