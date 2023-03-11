@@ -59,13 +59,17 @@
 
 ## Acceso al proyecto
 
-Tu puedes [acceder al codigo fuente del proyecto](https://github.com/Roberthdj/ConvertidorAlura) o [descargar sus etapas de desarrollo](https://github.com/Roberthdj/ConvertidorAlura/tags)
+Tu puedes [acceder al codigo fuente del proyecto](https://github.com/Roberthdj/ConvertidorAlura) o descargar sus etapas de desarrollo:
+- [Etapa 1](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConvertirMoneda)
+- [Etapa 2](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConvertirTemperatura)
+- [Etapa 3](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConvertirMasa)
+- [Etapa 4](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/Refactor-06-03-2023)
 
 ## Abrir un proyecto local
 
 Para correr `Conversor Alura`en tu máquina local:
 
-- Crea un nuevo proyecto en el IDE que estes usando para trabajar, "asegurate de no crear un Main Class"
+- Crea un nuevo proyecto de nombre ConvertidorAlura en el IDE que estes usando para trabajar, "asegurate de no crear un Main Class"
 
 - Abre una terminal de git en la ubicacion donde se aloja el nuevo proyecto que creaste
 
