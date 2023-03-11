@@ -60,11 +60,11 @@
 ## Acceso al proyecto
 
 Tu puedes [acceder al codigo fuente del proyecto](https://github.com/Roberthdj/ConvertidorAlura) o descargar sus etapas de desarrollo:
-- [Etapa 1: (Crear conversor de moneda) ](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConvertirMoneda)
-- [Etapa 2: (Agregar conversor de temperatura) ](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConvertirTemperatura)
-- [Etapa 3: (Agregar conversor de masa) ](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConvertirMasa)
-- [Etapa 4: (Refactorizando el código) ](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/Refactor-06-03-2023)
-- [Etapa : (Refactorizando el código - consumo de Api) ]
+- [Etapa 1: Crear conversor de moneda ](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConvertirMoneda)
+- [Etapa 2: Agregar conversor de temperatura ](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConvertirTemperatura)
+- [Etapa 3: Agregar conversor de masa ](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConvertirMasa)
+- [Etapa 4: Refactorizando el código ](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/Refactor-06-03-2023)
+- [Etapa 5: Refactorizando el código - consumo de Api ](https://github.com/Roberthdj/ConvertidorAlura/releases/tag/ConsumirApi)
 
 ## Abrir un proyecto local
 
